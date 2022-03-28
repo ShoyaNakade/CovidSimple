@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Foundation
+
 
 struct TotalDataView: View {
     var totalData: TotalData
@@ -16,7 +18,6 @@ struct TotalDataView: View {
             HStack {
                 DataCardView(number: totalData.confirmed.formatNumber, name: "総感染者数", color: .accentColor)
                 DataCardView(number: totalData.confirmed_diff.formatNumber, name: "1日の感染者数", color: .accentColor)
-//                DataCardView(number: totalData.active.formatNumber, name: "アクティブ", color: .green)
             }
             HStack {
                 DataCardView(number: totalData.deaths_diff.formatNumber, name: "死亡数", color: .red)
@@ -27,6 +28,15 @@ struct TotalDataView: View {
         }
         .frame(height: 170)
         .padding(10)
+    }
+}
+
+extension Int {
+    var formatNumber: String {
+        let formatter = NumberFormatter()
+        formatter.groupingSeparator = ","
+        formatter.numberStyle = .decimal
+        return formatter.string(from: NSNumber(value: self))!
     }
 }
 

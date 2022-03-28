@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainView.swift
 //  CovidStats
 //
 //  Created by 中出翔也 on 2022/03/22.

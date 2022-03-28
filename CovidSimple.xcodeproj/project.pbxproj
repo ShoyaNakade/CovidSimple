@@ -18,7 +18,6 @@
 		4DCFAEB427EA801E000B5BF1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFAEB327EA801E000B5BF1 /* MainViewModel.swift */; };
 		4DCFAEB727EA84D4000B5BF1 /* TotalDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFAEB627EA84D4000B5BF1 /* TotalDataView.swift */; };
 		4DCFAEBA27EA84F0000B5BF1 /* DataCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFAEB927EA84F0000B5BF1 /* DataCardView.swift */; };
-		4DCFAEBC27EA88AF000B5BF1 /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFAEBB27EA88AF000B5BF1 /* Extension+Int.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 		4DCFAEB327EA801E000B5BF1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		4DCFAEB627EA84D4000B5BF1 /* TotalDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalDataView.swift; sourceTree = "<group>"; };
 		4DCFAEB927EA84F0000B5BF1 /* DataCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCardView.swift; sourceTree = "<group>"; };
-		4DCFAEBB27EA88AF000B5BF1 /* Extension+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 			children = (
 				4D3BA5F227E9ECEE003F799E /* CovidStatsApp.swift */,
 				4D3BA5F427E9ECEE003F799E /* MainView.swift */,
-				4DCFAEBD27EA8E63000B5BF1 /* Extensions */,
 				4DCFAEB827EA84DC000B5BF1 /* Views */,
 				4DCFAEB527EA8051000B5BF1 /* ViewModel */,
 				4D3BA61427EA0929003F799E /* NetWorking */,
@@ -130,14 +127,6 @@
 				4DCFAEB927EA84F0000B5BF1 /* DataCardView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		4DCFAEBD27EA8E63000B5BF1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				4DCFAEBB27EA88AF000B5BF1 /* Extension+Int.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F1274B540165D686406E83DA /* Frameworks */ = {
@@ -217,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCFAEBC27EA88AF000B5BF1 /* Extension+Int.swift in Sources */,
 				4D3BA60E27E9FDC5003F799E /* CustomError.swift in Sources */,
 				4D3BA5F527E9ECEE003F799E /* MainView.swift in Sources */,
 				4D3BA5F327E9ECEE003F799E /* CovidStatsApp.swift in Sources */,
